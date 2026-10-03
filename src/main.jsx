@@ -3,27 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './style.css';
 
 const skills = [
-  'AWS', 'Linux', 'Docker', 'Kubernetes', 'Jenkins', 'Terraform',
-  'Git & GitHub', 'Argo CD', 'Prometheus', 'Grafana',
-  'Java', 'Spring Boot', 'PostgreSQL'
+  
 ];
 
 const toolCards = [
-  {
-    title: 'Cloud & IaC',
-    text: 'AWS infrastructure, Terraform provisioning and Linux administration.'
+   {
+    title: 'Cloud & Infrastructure',
+    text: 'AWS infrastructure using EC2, EKS, IAM, VPC, ALB, RDS, S3, ECR and CloudWatch, with Terraform for Infrastructure as Code.'
   },
   {
-    title: 'Containers',
-    text: 'Docker image creation, Kubernetes deployments, services and application operations.'
+    title: 'Containers & Kubernetes',
+    text: 'Docker containerization and Kubernetes workloads using Deployments, Services, ConfigMaps, Secrets and multi-node clusters.'
   },
   {
     title: 'CI/CD & GitOps',
-    text: 'Jenkins pipelines, GitHub workflows and Argo CD based Kubernetes delivery.'
+    text: 'Jenkins pipelines, Maven builds, GitHub Webhooks and Argo CD GitOps workflows for automated application delivery.'
   },
   {
-    title: 'Observability',
-    text: 'Prometheus, Grafana, Node Exporter and Kubernetes monitoring.'
+    title: 'Monitoring & Operations',
+    text: 'Prometheus and Grafana monitoring, Linux administration, NGINX and troubleshooting of applications and Kubernetes workloads.'
   }
 ];
 
@@ -61,21 +59,28 @@ function App() {
           </div>
 
           <h1>
-            Building reliable systems.
+            Hi, I'm Jai Parkash.
             <br />
-            <em>Automating delivery.</em>
+            <em>DevOps Engineer.</em>
           </h1>
 
           <p className="lead">
-            Jr. DevOps Engineer focused on cloud infrastructure,
-            Kubernetes, CI/CD automation and production-ready
-            application delivery.
+            Building reliable systems and automating application delivery
+            with AWS, Docker, Kubernetes, Jenkins, Terraform and GitOps.
           </p>
 
           <div className="actions">
             <a className="primary" href="#projects">
-              View my work →
+              View Projects →
             </a>
+
+            <a
+              className="secondary"
+              href="/Jai-Parkash-Resume.pdf"
+              download
+             >
+               Download Resume
+             </a>
 
             <a
               className="secondary"
@@ -233,11 +238,14 @@ function App() {
             </div>
 
             <p>
-              A full-stack employee management application used to
-              implement an end-to-end DevOps environment:
-              Java/Spring Boot backend, React frontend, PostgreSQL,
-              Docker, multi-node Kubernetes, Jenkins CI, Argo CD
-              GitOps and Prometheus/Grafana monitoring.
+             <p>
+                Built and deployed a full-stack Employee Management System using
+                React, Spring Boot and PostgreSQL. Containerized the application
+                with Docker and deployed frontend, backend and database workloads
+                on a multi-node Kubernetes cluster. Implemented Jenkins CI with
+                GitHub Webhooks, Argo CD GitOps delivery, and Prometheus/Grafana
+                monitoring for the Kubernetes environment.
+              </p>
             </p>
 
             <div className="architecture">
@@ -260,6 +268,17 @@ function App() {
               <span>Kubernetes</span>
               <span>Argo CD</span>
             </div>
+
+            <div className="projectLinks">
+              <a
+                href="https://github.com/dauntlessjaypee/employee-management-system"
+                target="_blank"
+                rel="noreferrer"
+                className="primary"
+              >
+    View Project on GitHub →
+  </a>
+</div>
 
           </div>
         </article>
@@ -295,32 +314,81 @@ function App() {
               </p>
             </div>
 
-          </article>
+              </article>
 
-          <article>
+                      <article>
+                <div className="date">
+                  2026
+                </div>
 
-            <div className="date">
-              2026
-            </div>
+                <div>
+                  <h3>M.Tech - Computer Science & Engineering</h3>
+                  <h4>J.C. Bose University, Faridabad</h4>
+                  <p>
+                    Master of Technology in Computer Science & Engineering.
+                  </p>
+                </div>
+              </article>
 
-            <div>
-              <h3>M.Tech</h3>
+              <article>
+                <div className="date">
+                  2021
+                </div>
 
-              <h4>
-                Postgraduate Engineering
-              </h4>
+                <div>
+                  <h3>M.Sc - Computer Science</h3>
+                  <h4>DAV Centenary College</h4>
+                  <p>
+                    Master of Science in Computer Science.
+                  </p>
+                </div>
+              </article>
 
-              <p>
-                Completed M.Tech with project work centered on
-                application development and DevOps practices.
-              </p>
-            </div>
+              <article>
+                <div className="date">
+                  2019
+                </div>
 
-          </article>
+                <div>
+                  <h3>B.Sc - Non-Medical</h3>
+                  <h4>IGNOU</h4>
+                  <p>
+                    Bachelor of Science in Non-Medical studies.
+                  </p>
+                </div>
+              </article>
+
+              <article>
+                <div className="date">
+                  2012
+                </div>
+
+                <div>
+                  <h3>Diploma - Electronics & Communication Engineering</h3>
+                  <h4>Government Polytechnic, Hisar</h4>
+                  <p>
+                    Diploma in Electronics & Communication Engineering.
+                  </p>
+                </div>
+              </article>
 
         </div>
 
       </section>
+
+      <section className="section shell" id="achievements">
+
+  <div className="sectionLabel">
+
+  </div>
+
+  <div className="cardGrid">
+
+    
+
+  </div>
+
+</section>
 
       <section className="contact shell">
 
