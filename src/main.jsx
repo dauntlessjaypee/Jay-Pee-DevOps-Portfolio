@@ -282,6 +282,61 @@ function App() {
 
           </div>
         </article>
+        <article className="project">
+  <div className="projectNum">
+    02
+  </div>
+
+  <div className="projectContent">
+    <div className="projectHead">
+      <div>
+        <p className="overline">
+          DEVOPS · DOCKER · KUBERNETES
+        </p>
+
+        <h3>
+          Java WAR Application — Containerization & Kubernetes Deployment
+        </h3>
+      </div>
+    </div>
+
+    <p>
+      Built and containerized a Java web application using Maven,
+      Docker, and Apache Tomcat. Implemented an NGINX reverse proxy
+      with Docker Compose and deployed the application to a
+      three-node Kubernetes cluster.
+    </p>
+
+    <p>
+      Configured two application replicas, Kubernetes Services,
+      NGINX Ingress, readiness and liveness probes, CPU and memory
+      resource limits, ConfigMaps, and rolling updates.
+    </p>
+
+    <div className="projectTags">
+      <span>Java</span>
+      <span>Maven</span>
+      <span>Tomcat</span>
+      <span>Docker</span>
+      <span>Docker Compose</span>
+      <span>NGINX</span>
+      <span>Kubernetes</span>
+      <span>Ingress</span>
+      <span>ConfigMaps</span>
+    </div>
+
+    <div className="projectLinks">
+      <a
+        href="https://github.com/dauntlessjaypee/java-war-demo-project"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="primary"
+      >
+        View Project on GitHub →
+      </a>
+    </div>
+  </div>
+</article>
 
       </section>
 
